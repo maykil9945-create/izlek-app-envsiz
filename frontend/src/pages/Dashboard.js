@@ -498,7 +498,30 @@ export default function Dashboard() {
                           <span className={task.completed ? 'line-through text-gray-400' : 'text-gray-700'}>
                             {task.lesson} - {task.topic}
                           </span>
-                          <span className="text-gray-500 text-xs font-medium">{task.duration}dk</span>
+                          <div className="flex items-center gap-2">
+                            <span className="text-gray-500 text-xs font-medium">{task.duration}dk</span>
+                            <Button
+                              size="sm"
+                              variant="ghost"
+                              className="h-7 w-7 p-0"
+                              onClick={() => {
+                                setEditingTask(task);
+                                setShowEditTask(true);
+                              }}
+                              data-testid={`btn-edit-task-${task.id}`}
+                            >
+                              <Edit className="h-3.5 w-3.5 text-blue-600" />
+                            </Button>
+                            <Button
+                              size="sm"
+                              variant="ghost"
+                              className="h-7 w-7 p-0"
+                              onClick={() => deleteTask(task.id)}
+                              data-testid={`btn-delete-task-${task.id}`}
+                            >
+                              <Trash2 className="h-3.5 w-3.5 text-red-600" />
+                            </Button>
+                          </div>
                         </div>
                       ))}
                     </div>
