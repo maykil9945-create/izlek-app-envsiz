@@ -948,7 +948,7 @@ export default function LandingPage() {
           </h2>
           
           <p className="text-xl sm:text-2xl md:text-3xl text-white/90 mb-12 leading-relaxed max-w-4xl mx-auto font-medium">
-            Hedeflerine ulaşmak isteyen binlerce öğrenci gibi sen de Neuron Spark'ı kullan, 
+            Hedeflerine ulaşmak isteyen binlerce öğrenci gibi sen de İzlek'i kullan, 
             hedefine <span className="font-bold text-white">daha organize</span> ve <span className="font-bold text-white">motive</span> bir şekilde ilerle.
           </p>
           
