@@ -199,6 +199,10 @@ export default function Dashboard() {
   };
 
   const deleteTask = async (taskId) => {
+    if (!window.confirm("Bu görevi silmek istediğine emin misin?")) {
+      return;
+    }
+    
     const updatedTasks = selectedProgram.tasks.filter(task => task.id !== taskId);
 
     try {
@@ -217,6 +221,34 @@ export default function Dashboard() {
       savePrograms(updatedPrograms);
     } catch (error) {
       console.error("Error deleting task:", error);
+    }
+  };
+
+  const editTask = async () => {
+    if (!editingTask) return;
+    
+    const updatedTasks = selectedProgram.tasks.map(task => 
+      task.id === editingTask.id ? editingTask : task
+    );
+
+    try {
+      await axios.put(`${API}/programs/${selectedProgram.id}`, {
+        tasks: updatedTasks
+      });
+      
+      const updatedProgram = { ...selectedProgram, tasks: updatedTasks };
+      setSelectedProgram(updatedProgram);
+      setShowEditTask(false);
+      setEditingTask(null);
+      
+      // Update localStorage
+      const updatedPrograms = programs.map(p => 
+        p.id === selectedProgram.id ? updatedProgram : p
+      );
+      setPrograms(updatedPrograms);
+      savePrograms(updatedPrograms);
+    } catch (error) {
+      console.error("Error editing task:", error);
     }
   };
 
