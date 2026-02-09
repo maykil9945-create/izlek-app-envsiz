@@ -397,7 +397,7 @@ export default function LandingPage() {
               </h3>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
                 Hedef puanını ve mevcut seviyeni gir, geri kalanı bize bırak. 
-                Neuron Spark, senin için en verimli çalışma programını otomatik olarak oluşturur.
+                İzlek, senin için en verimli çalışma programını otomatik olarak oluşturur.
               </p>
               <ul className="space-y-4">
                 <li className="flex items-start">
