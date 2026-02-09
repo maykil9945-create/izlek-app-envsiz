@@ -1018,7 +1018,7 @@ export default function LandingPage() {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center space-x-2 mb-4 md:mb-0">
               <Brain className="h-8 w-8 text-indigo-400" />
-              <span className="text-2xl font-bold text-white">Neuron Spark</span>
+              <span className="text-2xl font-bold text-white">İzlek</span>
             </div>
             <div className="text-center md:text-right">
               <p className="text-sm">© Neuron Spark. Tüm hakları saklıdır.</p>
