@@ -1021,7 +1021,7 @@ export default function LandingPage() {
               <span className="text-2xl font-bold text-white">İzlek</span>
             </div>
             <div className="text-center md:text-right">
-              <p className="text-sm">© Neuron Spark. Tüm hakları saklıdır.</p>
+              <p className="text-sm">© İzlek. Tüm hakları saklıdır.</p>
               <p className="text-sm mt-1">Hedeflerine ulaşmak isteyenler için tasarlandı ❤️</p>
             </div>
           </div>
