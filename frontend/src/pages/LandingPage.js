@@ -364,7 +364,7 @@ export default function LandingPage() {
                 Artık bu sorunların bir <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-emerald-600">çözümü var</span>
               </h3>
               <p className="text-xl text-gray-700 mb-6">
-                Neuron Spark, sınav hazırlık sürecini kolaylaştırmak için tasarlandı
+                İzlek, sınav hazırlık sürecini kolaylaştırmak için tasarlandı
               </p>
               <div className="flex items-center justify-center">
                 <ArrowRight className="w-8 h-8 text-green-600 animate-bounce" style={{ animationDuration: '1.5s' }} />
