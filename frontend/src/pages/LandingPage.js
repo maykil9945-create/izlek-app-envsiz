@@ -769,7 +769,7 @@ export default function LandingPage() {
               Başarı hikayeleri
             </Badge>
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              Binlerce Öğrenci Neuron Spark ile Başardı
+              Binlerce Öğrenci İzlek ile Başardı
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Sen de onlardan biri olabilirsin
