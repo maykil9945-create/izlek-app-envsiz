@@ -645,7 +645,7 @@ export default function LandingPage() {
           </div>
 
           <div className="grid md:grid-cols-2 gap-8">
-            {/* Without Neuron Spark */}
+            {/* Without İzlek */}
             <Card className="border-2 border-red-200 bg-red-50/30">
               <CardContent className="pt-8 pb-6 px-6">
                 <div className="text-center mb-6">
