@@ -383,7 +383,7 @@ export default function LandingPage() {
               Çözüm burada
             </Badge>
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              Neuron Spark ile Kontrolü Ele Al
+              İzlek ile Kontrolü Ele Al
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Sınav hazırlığını kolaylaştıran, seni adım adım hedefe götüren akıllı platform
