@@ -110,7 +110,7 @@ export default function LandingPage() {
 
   const faqs = [
     {
-      question: "Neuron Spark gerçekten ücretsiz mi?",
+      question: "İzlek gerçekten ücretsiz mi?",
       answer: "Evet, %100 ücretsiz! Kredi kartı bilgisi gerektirmeden hemen başlayabilirsin. Hiçbir ücret ödemene gerek yok."
     },
     {
