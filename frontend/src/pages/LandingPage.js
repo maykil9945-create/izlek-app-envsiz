@@ -692,7 +692,7 @@ export default function LandingPage() {
               </CardContent>
             </Card>
 
-            {/* With Neuron Spark */}
+            {/* With İzlek */}
             <Card className="border-2 border-green-200 bg-gradient-to-br from-green-50 to-emerald-50 relative overflow-hidden">
               <div className="absolute top-4 right-4">
                 <Badge className="bg-green-600 text-white hover:bg-green-700 border-0">
