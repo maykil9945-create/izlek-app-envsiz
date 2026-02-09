@@ -123,7 +123,7 @@ export default function LandingPage() {
     },
     {
       question: "Mobil cihazlardan kullanabilir miyim?",
-      answer: "Evet! Neuron Spark tüm cihazlarda sorunsuz çalışıyor. Bilgisayar, tablet veya telefondan istediğin yerden erişebilirsin."
+      answer: "Evet! İzlek tüm cihazlarda sorunsuz çalışıyor. Bilgisayar, tablet veya telefondan istediğin yerden erişebilirsin."
     },
     {
       question: "Program ne kadar sürede hazırlanıyor?",
