@@ -151,7 +151,7 @@ export default function LandingPage() {
             <div className="flex items-center space-x-2">
               <Brain className="h-8 w-8 text-indigo-600" />
               <span className="text-2xl font-bold text-gray-900" data-testid="app-logo">
-                Neuron Spark
+                İzlek
               </span>
             </div>
             <div className="flex items-center space-x-3">
