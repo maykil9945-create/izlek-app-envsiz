@@ -91,7 +91,7 @@ export default function LandingPage() {
     {
       name: "Ayşe K.",
       role: "Boğaziçi Üniversitesi",
-      content: "Neuron Spark sayesinde neyi ne zaman çalışacağım konusunda hiç tereddüt yaşamadım. Program benim için otomatik planladı, ben sadece çalışmaya odaklandım.",
+      content: "İzlek sayesinde neyi ne zaman çalışacağım konusunda hiç tereddüt yaşamadım. Program benim için otomatik planladı, ben sadece çalışmaya odaklandım.",
       rating: 5
     },
     {
