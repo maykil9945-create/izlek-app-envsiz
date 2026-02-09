@@ -191,7 +191,7 @@ class ExamResultCreate(BaseModel):
 # Health Check
 @api_router.get("/")
 async def root():
-    return {"message": "Neuron Spark API"}
+    return {"message": "İzlek API"}
 
 # Old endpoints (keep for compatibility)
 @api_router.post("/status", response_model=StatusCheck)
