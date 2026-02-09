@@ -26,6 +26,8 @@ export default function Dashboard() {
     duration: 30,
     day: "Pazartesi"
   });
+  const [editingTask, setEditingTask] = useState(null);
+  const [showEditTask, setShowEditTask] = useState(false);
 
   // Read profileId from localStorage on mount and store in state
   const [profileId, setProfileId] = useState(null);
