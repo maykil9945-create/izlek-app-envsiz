@@ -655,7 +655,7 @@ export default function LandingPage() {
                   <h3 className="text-2xl font-bold text-gray-900 mb-2">
                     Geleneksel Yöntem
                   </h3>
-                  <p className="text-sm text-gray-600">Neuron Spark olmadan</p>
+                  <p className="text-sm text-gray-600">İzlek olmadan</p>
                 </div>
                 <div className="space-y-4">
                   <div className="flex items-start p-4 bg-white rounded-xl border border-red-200">
