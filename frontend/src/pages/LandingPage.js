@@ -597,7 +597,7 @@ export default function LandingPage() {
                 Başarıya Giden Yolda Yanındayız
               </h2>
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                Neuron Spark ile sınav hazırlık sürecin artık çok daha kolay, organize ve motivasyonlu geçecek.
+                İzlek ile sınav hazırlık sürecin artık çok daha kolay, organize ve motivasyonlu geçecek.
               </p>
               <Button 
                 size="lg"
