@@ -479,6 +479,70 @@ export default function Dashboard() {
                   </div>
                 </DialogContent>
               </Dialog>
+              
+              {/* Edit Task Dialog */}
+              <Dialog open={showEditTask} onOpenChange={setShowEditTask}>
+                <DialogContent>
+                  <DialogHeader>
+                    <DialogTitle>Görevi Düzenle</DialogTitle>
+                  </DialogHeader>
+                  {editingTask && (
+                    <div className="space-y-4">
+                      <div>
+                        <Label htmlFor="edit-lesson">Ders</Label>
+                        <Input
+                          id="edit-lesson"
+                          value={editingTask.lesson}
+                          onChange={(e) => setEditingTask({ ...editingTask, lesson: e.target.value })}
+                          placeholder="Örn: Matematik"
+                          data-testid="input-edit-lesson"
+                        />
+                      </div>
+                      <div>
+                        <Label htmlFor="edit-topic">Konu</Label>
+                        <Input
+                          id="edit-topic"
+                          value={editingTask.topic}
+                          onChange={(e) => setEditingTask({ ...editingTask, topic: e.target.value })}
+                          placeholder="Örn: İntegral"
+                          data-testid="input-edit-topic"
+                        />
+                      </div>
+                      <div>
+                        <Label htmlFor="edit-duration">Süre (dakika)</Label>
+                        <Input
+                          id="edit-duration"
+                          type="number"
+                          value={editingTask.duration}
+                          onChange={(e) => setEditingTask({ ...editingTask, duration: parseInt(e.target.value) || 30 })}
+                          data-testid="input-edit-duration"
+                        />
+                      </div>
+                      <div>
+                        <Label htmlFor="edit-day">Gün</Label>
+                        <select
+                          id="edit-day"
+                          className="w-full p-2 border-2 rounded-lg"
+                          value={editingTask.day}
+                          onChange={(e) => setEditingTask({ ...editingTask, day: e.target.value })}
+                          data-testid="select-edit-day"
+                        >
+                          <option>Pazartesi</option>
+                          <option>Salı</option>
+                          <option>Çarşamba</option>
+                          <option>Perşembe</option>
+                          <option>Cuma</option>
+                          <option>Cumartesi</option>
+                          <option>Pazar</option>
+                        </select>
+                      </div>
+                      <Button onClick={editTask} className="w-full" data-testid="btn-save-edit-task">
+                        Kaydet
+                      </Button>
+                    </div>
+                  )}
+                </DialogContent>
+              </Dialog>
             </CardTitle>
           </CardHeader>
           <CardContent>
