@@ -269,7 +269,7 @@ export default function LandingPage() {
               Türkiye'nin En Hızlı Büyüyen Eğitim Platformu
             </h2>
             <p className="text-xl text-indigo-100">
-              Binlerce öğrenci zaten Neuron Spark ile çalışıyor
+              Binlerce öğrenci zaten İzlek ile çalışıyor
             </p>
           </div>
           
