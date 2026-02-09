@@ -637,10 +637,10 @@ export default function LandingPage() {
               Fark nerede?
             </Badge>
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              Geleneksel Yöntem vs Neuron Spark
+              Geleneksel Yöntem vs İzlek
             </h2>
             <p className="text-xl text-gray-600">
-              Neden binlerce öğrenci Neuron Spark'ı tercih ediyor?
+              Neden binlerce öğrenci İzlek'i tercih ediyor?
             </p>
           </div>
 
